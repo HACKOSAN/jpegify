@@ -37,17 +37,11 @@ Install Poppler using the following command:
 ```bash
 sudo apt-get install poppler-utils
 ```
-
 #### For Linux (Arch-based):
 Install Poppler using the following command:
 ```bash
 sudo pacman -S poppler
 ```
-
-## Files Included
-- **main.py**: The Python script for the conversion process.
-- **requirements.txt**: Contains the list of Python dependencies.
-
 ## Additional Information
 The `bin` directory from the Poppler folder is essential for Windows users to enable the script to locate the necessary executables for PDF processing. Without it, the tool will not function properly. On Linux, the `poppler-utils` package provides the required utilities.
 
